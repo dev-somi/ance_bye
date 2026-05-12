@@ -1,27 +1,33 @@
 # ance_bye
 
+# 📱 Acne-Care AI: 여드름 분류 & 제품 추천
 
-# 📱 Acne-Care AI: Classification & Recommendation
+파인튜닝된 **EfficientNet** 모델을 활용하여 여드름 유형을 분류하고, 적합한 국내 OTC(일반의약품) 트러블 케어 제품을 추천해주는 **Kotlin** 기반 Android 앱입니다.
 
-An AI-powered Android application developed with **Kotlin** that classifies acne types using a fine-tuned **EfficientNet** model and recommends suitable Korean OTC (Over-the-Counter) treatments.
+---
 
-## 🚀 Key Features
+## 🚀 주요 기능
 
-* **AI Image Analysis**: Captures or uploads skin images to identify specific acne types.
-* **Fine-tuned EfficientNet**: High-accuracy image classification based on a specialized acne dataset.
-* **Curated Recommendations**: Suggests effective Korean acne ointments and treatments tailored to the analysis results.
-* **User-Friendly Interface**: Intuitive mobile experience built natively for Android.
+- **AI 이미지 분석**: 피부 이미지를 촬영하거나 업로드하여 여드름 유형을 식별합니다.
+- **파인튜닝된 EfficientNet**: 여드름 전용 데이터셋 기반의 고정밀 이미지 분류 모델을 사용합니다.
+- **맞춤형 제품 추천**: 분석 결과에 맞는 국내 트러블 케어 연고 및 제품을 추천합니다.
+- **직관적인 UI**: Android 네이티브로 개발된 사용하기 쉬운 모바일 인터페이스를 제공합니다.
 
-## 🛠 Tech Stack
+---
 
-* **Language**: Kotlin
-* **Platform**: Android
-* **Deep Learning Model**: EfficientNet (Fine-tuned for skin analysis)
-* **Tools**: Android Studio, TensorFlow Lite (or your specific ML deployment tool)
+## 🛠 기술 스택
 
-## 📸 How it Works
+| 항목 | 내용 |
+|------|------|
+| **언어** | Kotlin |
+| **플랫폼** | Android |
+| **딥러닝 모델** | EfficientNet (피부 분석용 파인튜닝) |
+| **도구** | Android Studio, TensorFlow Lite |
 
-1. **Input**: User takes a photo of the affected skin area.
-2. **Analysis**: The fine-tuned **EfficientNet** model processes the image to classify the acne stage/type.
-3. **Result**: The app displays the analysis and recommends the most effective **Korean ointment** (e.g., Clearteen, Fucidin, or specialized acne gels) available in pharmacies.
+---
 
+## 📸 작동 방식
+
+1. **입력**: 사용자가 트러블 부위 피부를 촬영합니다.
+2. **분석**: 파인튜닝된 **EfficientNet** 모델이 이미지를 처리하여 여드름 단계 및 유형을 분류합니다.
+3. **결과**: 앱이 분석 결과를 표시하고, 약국에서 구매 가능한 국내 트러블 케어 제품(예: 클레어틴, 후시딘, 전문 여드름 젤 등)을 추천합니다.
